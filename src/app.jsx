@@ -1,7 +1,8 @@
-import './app.css';
+import "./app.css";
+import AppRouter from "./routes";
 
 function App() {
-  return <h1>Bakery map</h1>;
+  return <AppRouter />;
 }
 
 export default App;
