@@ -6,11 +6,13 @@ const Header = props => (
     <h1>Bakery Map</h1>
     <form className={styles.form}>
       <input
-        className={styles.input}
+        className={`${styles.search} ${styles.search_form}`}
         type='text'
         placeholder='Find a new bakery!'
       />
-      <input className={styles.btn} type='button' value='SEARCH' />
+      <button className={`${styles.search} ${styles.btn}`}>
+        <img className={styles.img} src='images/search.png' alt='search icon' />
+      </button>
     </form>
   </header>
 );

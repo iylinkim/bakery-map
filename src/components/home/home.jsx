@@ -3,11 +3,11 @@ import React from "react";
 import Footer from "../footer/footer";
 import Header from "../header/header";
 
-const Home = props => (
+const Home = ({location}) => (
   <>
     <Header />
     <section>
-      <BakeryMap/>
+      <BakeryMap location={location}/>
     </section>
     <Footer />
   </>

@@ -1,0 +1,36 @@
+@value makerDarkTransparent, makerDarkGreen from "../../common/colors.css";
+
+.header {
+  background-color: makerDarkTransparent;
+  display: flex;
+  padding: 20px 5%;
+}
+
+.form {
+  outline: 5px solid red;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  height: 40px;
+  border: 1px solid transparent;
+}
+.search_form {
+  width: 80%;
+  text-indent:10px;
+}
+
+.btn {
+    width:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: makerDarkGreen;
+  cursor:pointer;
+}
+.img {
+  width: 60%;
+}

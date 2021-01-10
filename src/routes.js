@@ -2,11 +2,11 @@ import React from "react";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Home from "./components/home/home";
 
-const AppRouter = props => (
+const AppRouter = ({location}) => (
   <Router>
     <Switch>
       <Route path='/'>
-        <Home />
+        <Home location={location}/>
       </Route>
     </Switch>
   </Router>
