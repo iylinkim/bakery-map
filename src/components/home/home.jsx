@@ -2,12 +2,16 @@ import BakeryMap from "../bakery_map/bakery_map";
 import React from "react";
 import Footer from "../footer/footer";
 import Header from "../header/header";
+import BakeryList from "components/bakery_list/bakery_list";
 
-const Home = ({location}) => (
+const Home = ({shops, latNLng}) => (
   <>
     <Header />
     <section>
-      <BakeryMap location={location}/>
+      <BakeryMap latNLng={latNLng} />
+    </section>
+    <section>
+      <BakeryList shops={shops}/>
     </section>
     <Footer />
   </>
