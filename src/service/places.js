@@ -28,6 +28,14 @@ class Places {
 
     return await response.data.result;
   }
+
+  async getPhotos(photorefenrence) {
+    const response = await axios(
+      `https://maps.googleapis.com/maps/api/place/photo?photoreference=${photorefenrence}&maxwidth=500&key=${this.key}`,
+      this.getRequestOptions
+    );
+    return response.config.url;
+  }
 }
 
 export default Places;

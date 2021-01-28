@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./app";
-import Location from "./service/location";
+
 import Places from "./service/places";
-import axios from "axios";
+
 // import GoogleMap from "./service/googleMap";
 // const googleMap = new GoogleMap(process.env.REACT_APP_API_KEY);
 
