@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/bakery-map/static/css/main.ea52f9a7.chunk.css",
+    "main.js": "/bakery-map/static/js/main.e7b586fb.chunk.js",
+    "main.js.map": "/bakery-map/static/js/main.e7b586fb.chunk.js.map",
+    "runtime-main.js": "/bakery-map/static/js/runtime-main.f73a9c4a.js",
+    "runtime-main.js.map": "/bakery-map/static/js/runtime-main.f73a9c4a.js.map",
+    "static/js/2.143ccc2b.chunk.js": "/bakery-map/static/js/2.143ccc2b.chunk.js",
+    "static/js/2.143ccc2b.chunk.js.map": "/bakery-map/static/js/2.143ccc2b.chunk.js.map",
+    "index.html": "/bakery-map/index.html",
+    "static/css/main.ea52f9a7.chunk.css.map": "/bakery-map/static/css/main.ea52f9a7.chunk.css.map",
+    "static/js/2.143ccc2b.chunk.js.LICENSE.txt": "/bakery-map/static/js/2.143ccc2b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f73a9c4a.js",
+    "static/js/2.143ccc2b.chunk.js",
+    "static/css/main.ea52f9a7.chunk.css",
+    "static/js/main.e7b586fb.chunk.js"
+  ]
+}
