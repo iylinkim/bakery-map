@@ -12,8 +12,12 @@ class Places {
   }
 
   async getStore(lat, lng) {
+    // const response = await axios(
+    //   `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${lat},${lng}&radius=5000&keyword=bakery&key=${this.key}`,
+    //   this.getRequestOptions
+    // );
     const response = await axios(
-      `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${lat},${lng}&radius=5000&keyword=bakery&key=${this.key}`,
+      `https://maps.googleapis.com/maps/api/place/findplacefromtext/json?key=${process.env.REACT_APP_API_KEY}&input=bakery&inputtype=textquery`,
       this.getRequestOptions
     );
 

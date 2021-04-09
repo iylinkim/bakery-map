@@ -9,11 +9,25 @@
       name="description"
       content="Web site created using create-react-app"
     />
-  
+    <!-- <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvrxdRlryJr6fvx14XdM42TMuvxSEt3hw&callback=initMap&libraries=places"
+      defer
+    ></script> -->
     <title>App</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script>
+      function initMap(){
+    // const sydney = new google.maps.LatLng(-33.867, 151.195);
+    // infowindow = new google.maps.InfoWindow();
+    // map = new google.maps.Map(document.getElementById("test"), {
+    //   center: sydney,
+    //   zoom: 15,
+    // });
+    console.log(window.google.maps.LatLng(-33.867, 151.195));
+  };
+    </script>
   </body>
 </html>

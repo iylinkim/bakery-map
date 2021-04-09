@@ -2,8 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./app";
-
 import Places from "./service/places";
+import Libraries from "service/Libraries";
+
 
 // import GoogleMap from "./service/googleMap";
 // const googleMap = new GoogleMap(process.env.REACT_APP_API_KEY);
@@ -23,6 +24,7 @@ const places = new Places(process.env.REACT_APP_API_KEY, 0,0);
 ReactDOM.render(
   <React.StrictMode>
     <App places={places}/>
+    <Libraries/>
   </React.StrictMode>,
   document.getElementById("root")
 );
